@@ -1,21 +1,21 @@
+import vendors from './data/vendors.js'
 import Header from './components/Header.jsx'
-import VendorCard from './components/VendorCard.jsx'
-import MenuItemCard from './components/MenuItemCard.jsx'
+import MenuList from './components/MenuList.jsx'
 import Footer from './components/Footer.jsx'
+const [cart, setCart] = useState([])
+function handleAddToCart(item) {
+setCart((prevCart) => [...prevCart, item]) // a NEW array, never cart.push()
+}
+
 function App() {
+const selectedVendor = vendors[0]
 return (
 <>
-<Header />
+<Header cartCount={cart.length} />
 <main className="container">
 <section>
-<h2 className="section-title">Today's vendors</h2>
-<VendorCard />
-</section>
-<section>
-<h2 className="section-title">Popular items</h2>
-<div className="grid">
-<MenuItemCard />
-</div>
+<h2 className="section-title">Menu: {selectedVendor.name}</h2>
+<MenuList items={selectedVendor.menu} onAdd={handleAddToCart} />
 </section>
 </main>
 <Footer />
