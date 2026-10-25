@@ -1,0 +1,121 @@
+[
+{
+"id": "2417035-Softie-Cookies",
+"name": "Softie Cookies",
+"location": "Mahallah Ali, Block C",
+"openHours": "8:00 am - 10:00 pm",
+"isOpen": true,
+"menu": [
+    { "id": "2417035-m1", "name": "Chocolate Chip Cookie", "price": 5.0, 
+    "category": "Deserts", "popular": true },
+    { "id": "2417035-m2", "name": "Chocolate Smores Cookie", "price": 6.0, 
+    "category": "Deserts", "popular": true },
+    { "id": "2417035-m3", "name": "Red Velvet Cookie", "price": 5.0, 
+    "category": "Deserts", "popular": true },
+    { "id": "2417035-m4", "name": "White Chocolate Chip Cookie", "price": 6.0, 
+    "category": "Deserts", "popular": true },
+    { "id": "2417035-m5", "name": "Matcha Smores Cookies", "price": 7.0, 
+    "category": "Deserts", "popular": true },
+    { "id": "2417035-m6", "name": "Matcha White Choc Cookie", "price": 8.0, 
+    "category": "Deserts", "popular": true },
+    { "id": "2417035-m7", "name": "Oreo Cookie", "price": 5.0, 
+    "category": "Deserts", "popular": true },
+    { "id": "2417035-m8", "name": "Oreo Smores Cookie", "price": 6.0, 
+    "category": "Deserts", "popular": true }
+    ]
+},
+{
+"id": "2410997-Aro-Cafe",
+"name": "Aro Cafe",
+"location": "HS Building, Ground Floor",
+"openHours": "7:00 am - 10:00 pm",
+"isOpen": true,
+"menu": [
+      {
+        "id": "2410997-s1",
+        "name": "Thunder Hot Burger",
+        "description": "Burger in a bun with special sauce",
+        "price": 7.5,
+        "category": "Burgers",
+        "available": true
+      },
+      {
+        "id": "2410997-s2",
+        "name": "Double Thunder Burger",
+        "description": "Burger in a bun with double patty and special sauce",
+        "price": 9.5,
+        "category": "Burgers",
+        "available": true
+      },
+      {
+        "id": "2410997-s3",
+        "name": "Triple Thunder Burger",
+        "description": "Burger in a bun with triple patty and special sauce",
+        "price": 12,
+        "category": "Burgers",
+        "available": true
+      },
+      {
+        "id": "2410997-s4",
+        "name": "Happy Aro Jr set",
+        "description": "normal cheeseburger, selected soft drink ,fries and a toy",
+        "price": 8.5,
+        "category": "Meals Set",
+        "available": false
+      },
+      {
+        "id": "2410997-s5",
+        "name": "Trio Flaming Tenders",
+        "description": "3 pieces of Chicken Tenders with spicy flake",
+        "price": 6,
+        "category": "Chicken",
+        "available": true
+      },
+      {
+        "id": "2410997-s6",
+        "name": "2pc Mr Chicken",
+        "description": "2 pieces of Mr Chicken ",
+        "price": 9,
+        "category": "Chicken",
+        "available": true
+      },
+      {
+        "id": "2410997-s7",
+        "name": "Soda",
+        "description": "normal soft drinks",
+        "price": 2.5,
+        "category": "Drinks",
+        "available": false
+      },
+
+      {
+        "id": "2410997-s8",
+        "name": "Milo",
+        "description": "Chocolate malted drink",
+        "price": 3,
+        "category": "Drinks",
+        "available": true
+      }
+    ]
+},
+{
+"id": "2415845-amiette",
+"name": "Amiette",
+"location": "Mahallah Salahuddin, Block A",
+"openHours": "8:00 am - 10:00 pm",
+"isOpen": true,
+"menu": [
+      { "id": "2415845-m1", "name": "Pistachio Croissant", "description": "Pistachio cream, roasted pistachio crumble.", "price": 18, "category": "Pastries", "available": true, "popular": true },
+      { "id": "2415845-m2", "name": "Pain Au Chocolat", "description": "Flaky pastry with rich dark chocolate batons.", "price": 14, "category": "Pastries", "available": true, "popular": false },
+      { "id": "2415845-m3", "name": "Café Latte", "description": "Our own coffee blend, Brazil Cerrado + Ethiopia Sidama", "price": 9, "category": "Drinks", "available": true, "popular": true },
+      { "id": "2415845-m4", "name": "Almond Croissant", "description": "Twice-baked with frangipane and toasted almond flakes.", "price": 16, "category": "Pastries", "available": true, "popular": false },
+      { "id": "2415845-m5", "name": "Iced Spanish Latte", "description": "Double shot over milk sweetened with condensed milk.", "price": 13, "category": "Drinks", "available": true, "popular": true },
+      { "id": "2415845-m6", "name": "Matcha Latte", "description": "Uji ceremonial-grade matcha Imported from Japan with fresh milk.", "price": 15, "category": "Drinks", "available": false, "popular": true },
+      { "id": "2415845-m7", "name": "Basque Burnt Cheesecake", "description": "Caramelised top, creamy centre.", "price": 17, "category": "Cakes", "available": true, "popular": true },
+      { "id": "2415845-m8", "name": "Earl Grey Chiffon", "description": "Light chiffon sponge with earl grey chantilly cream.", "price": 15, "category": "Cakes", "available": true, "popular": false },
+      { "id": "2415845-m9", "name": "Croissant Sandwich", "description": "Butter croissant with scrambled eggs, smoked turkey and cheddar.", "price": 22, "category": "Brunch", "available": true, "popular": true },
+      { "id": "2415845-m10", "name": "Truffle Mushroom Toast", "description": "Sourdough, sautéed mushrooms, truffle oil, poached egg.", "price": 26, "category": "Brunch", "available": false, "popular": true }
+    ]
+  }
+
+]
