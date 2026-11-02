@@ -1,4 +1,5 @@
 import VendorCard from "../components/VendorCard"
+import DailySpecial from '../components/DailySpecial.jsx'
 import { useVendors } from "../hooks/useVendors"
 import { Loading, ErrorMessage } from '../components/Status.jsx'
 
@@ -10,6 +11,7 @@ function HomePage(){
 
 return (
     <section>
+        <DailySpecial vendors={vendors} />
         <h2 className="section-title">Choose a vendor</h2>
             <div className="vendor-grid">
                 {vendors.map((vendor) => (

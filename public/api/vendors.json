@@ -84,7 +84,12 @@
       "price": 22, "category": "Brunch", "available": true, "popular": true },
       { "id": "2415845-m10", "name": "Truffle Mushroom Toast", "description": "Sourdough, sautéed mushrooms, truffle oil, poached egg.", 
       "price": 26, "category": "Brunch", "available": false, "popular": true }
-    ]
+      
+    ],
+    "dailySpecial": {
+      "durationHours": 8
+    }
+    
   }
 
 ]
