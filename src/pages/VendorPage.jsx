@@ -27,7 +27,7 @@ function VendorPage() {
         <section>
             <h2 className="section-title">Menu: {vendor.name}</h2>
             <p className="muted">{vendor.location} · Open: {vendor.openHours}</p>
-            <DailySpecial vendor={vendor} onAdd={addToCart} />
+            <DailySpecial vendors={vendors} vendor={vendor} onAdd={addToCart} />
         </section>
     )
 }

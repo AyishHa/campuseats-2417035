@@ -32,11 +32,11 @@ function CartProvider( {children} ){
     }
     function placeOrder(details) {
         const order = {
-            id: Date.now(),                       // simple unique id: ms since 1970
-            placedAt: new Date().toISOString(),   // text date, safe to save as JSON
-            ...details,                           // name, mahallah, pickupTime from the form
+            id: Date.now(),                       
+            placedAt: new Date().toISOString(),   
+            ...details,                          
             lines: cart,  
-            total,                                // SNAPSHOT of the total (same reason)
+            total,                                
     }
 
         setOrders((prev) => [order, ...prev])

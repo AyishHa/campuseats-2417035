@@ -9,7 +9,6 @@ return (
         <div>
             <h3>{vendor.name}</h3>
             <p className="muted">{vendor.location}</p>
-            <p className="muted">Open: {vendor.description}</p>
             <p className="muted">Open: {vendor.openHours}</p>
             <span className={vendor.isOpen ? 'status open' : 'status closed'}>
                 {vendor.isOpen ? 'Open now' : 'Closed'}
