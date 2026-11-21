@@ -1,0 +1,16 @@
+import { Navigate, Outlet, useLocation } from 'react-router'
+import { useAuth } from '../hooks/useAuth.js'
+import { Loading } from './Status.jsx'
+
+// Wrap routes that need a signed-in user. Guests are sent to /login,
+// and we remember where they were going so login can send them back.
+function ProtectedRoute() {
+  const { user, loading } = useAuth()
+  const location = useLocation()
+
+  if (loading) return <Loading />
+  if (!user) return <Navigate to="/login" replace state={{ from: location.pathname }} />
+  return <Outlet />
+}
+
+export default ProtectedRoute
